@@ -1,0 +1,27 @@
+.inputContainer {
+  select {
+    box-sizing: border-box;
+    background-color: #E4E4E4;
+    color: #7B7B7B;
+    border: 0 none;
+    border-radius: .3rem;
+    height: 50px; /* 66px*/
+    font-size: 1.1em;
+    padding-left: .5rem;  
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.4);
+  }
+
+  select::placeholder {
+    padding-left: .5rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    select {
+      height: 66px; /* 66px*/
+      font-size: 1.5em;
+    }
+    
+  }
+}

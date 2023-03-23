@@ -1,0 +1,28 @@
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EFEFEF;
+  width: 100%;
+  padding: 1.5rem 0;
+  margin: 3rem 0;
+
+.cardList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+    h2 {
+      font-size: 3em;
+      margin-bottom: 1rem;
+    }
+
+    @media screen and (min-width: 768px) {
+      h2 {
+        margin-bottom: 4.8rem;
+      }
+    }
+}

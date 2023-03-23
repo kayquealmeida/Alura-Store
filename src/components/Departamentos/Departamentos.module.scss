@@ -1,0 +1,24 @@
+.departamentosContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+
+    h2 {
+      display: block;
+      font-size: 2em;
+      margin-bottom: 3.4rem;
+    }
+  
+    @media screen and (min-width: 768px) {
+
+      & {
+        margin-top: 9rem;
+      }
+
+      h2 {
+        font-size: 3em;
+      }
+    }
+}

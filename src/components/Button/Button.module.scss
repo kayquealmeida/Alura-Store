@@ -1,0 +1,34 @@
+.button {
+  align-self: center;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1.6em;
+  padding: .8rem 1.8rem;
+  cursor: pointer;
+  border-radius: .4rem;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.4);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.4);
+  -o-transition: .4s;
+  -moz-transition: .4s;
+  -webkit-transition: .4s;
+  transition: .4s;
+
+  &:hover {
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+  @media screen and (min-width: 768px) {
+    & {
+        font-size: 1.8em;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    & {
+        font-size: 2.25em;
+        padding: 1.45rem 2rem;
+    }
+  }
+}
